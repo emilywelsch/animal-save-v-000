@@ -18,6 +18,6 @@ their affection. */
 @media only screen and (min-width: 410px) and (max-width: 1230px) {
   #monkey {
     right: 0;
-    top: 0;
+    top: -50;
   }
 }
