@@ -8,5 +8,11 @@ html {
   right: 0;
 }
 
-/* Write your solution here */
+/* the screen reaches 1196px stop him from falling off 
+the cliff by setting him to stay 800px from the left side 
+of the screen before he reaches the edge.*/
+
+@media only screen and (max-width: 1196px) {
+  padding-left: 800px;
+}
 
